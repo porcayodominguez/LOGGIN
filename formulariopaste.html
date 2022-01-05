@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="formupaste.css">
+
+  </head>
+  <body>
+    <img class="logo-right" src="imagenes/iconos/persona.svg" alt="Esto es una imagen">
+    <img class="logo-left" src="imagenes/iconos/yuyo.ico" alt="Esto es una imagen">
+    <div class="contenedor">
+      <h2 class="contenedor-titulo">ÚNETE A NUESTRA COMUNIDAD.</h2>
+      <form class="contenedor-form" action="validar.php" method="post">
+        <label for="" class="contenedor-labol">Ingrese un nombre de usuario:</label>
+        <input type="text" placeholder="Usuario" name="name" class="contenedor-input">
+        <label for="" class="contenedor-labol">Correo Electronico:</label>
+        <input type="email" placeholder="Ingrese su correo eletronico" name="email" class="contenedor-input">
+        <label for="" class="contenedor-labol">Contraseña:</label>
+        <input type="password" placeholder="Ingrese su contraseña" name="contraseña" class="contenedor-input">
+        <label for="" class="contenedor-labol">Repetir la contraseña:</label>
+        <input type="password" placeholder="Ingrese su contraseña nuevamente" name="contraseña" class="contenedor-input">
+        <input type="submit" name="registrar" value="REGISTRARSE">
+        <a href="seccion.html">¿Ya tienes una cuenta?<br></a>
+        <a href="https://mail.google.com/mail/u/0/?hl=es-419#inbox">Si sucede algún error con tu inicio de sesión reportarlo aquí.</a>
+      </form>
+    </div>
+  </body>
+</html>

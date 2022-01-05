@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body
+{
+  background-image: url(imagenes/fondo21.jpg);
+  margin: 2px auto;
+  color:rgb(190, 190, 190) ; /*Color de la letra*/
+  width: 80%;
+}
+header>h1
+{
+  font-family: 'Anton', sans-serif;
+  color: rgb(31, 31, 32);
+  font-size: 45px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-align: center;
+  margin: 12px;
+}
+h2{
+  font-family: 'Staatliches', cursive;
+  color: rgb(0, 80, 79);
+  font-weight: bold;
+  text-align: center;
+
+}
+h3{
+  color: rgba(10, 16, 50, 0.91);
+  font-weight: bold;
+  text-align: center;
+}
+section
+{
+  float: left;
+  width: 105%;
+  text-align: justify;
+  margin-top: 20px;
+}
+article
+{
+  padding: 85px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(222, 0, 140);
+  background-color: rgb(238, 219, 231);
+}
+.logo-left
+{
+  float:left;
+  padding: 20px 0px 0px 20px;
+  width: 120px;
+  height: 120px;
+}
+img.radius
+{
+  width: 25%;
+  float: right;
+  margin: -0px 350px;
+  padding: 10px;
+}
+
+.button-aceptar
+{
+  font-family: 'Cardo', serif;
+	margin: 0px 450px;
+	font-size: 21px;
+	position: relative;
+	display: block;
+	padding: 12px 90px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 100px;
+	height: 10px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	color:rgb(255, 0, 214);
+	cursor: pointer;
+	box-shadow:inset 1 1 1 0px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.2s;
+	background: rgb(249, 252, 249);
+}
+.button-aceptar:hover{
+	background-color: rgb(243, 242, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 02px 5px rgb(71, 56, 91);
+  padding-top: 7px;
+	animation: 34s;
+}

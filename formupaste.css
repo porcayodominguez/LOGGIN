@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+body{
+	background-image:url("imagenes/colorpastel.jpeg");
+	width: 100%;
+	height:100%vh;
+	background-size: cover;
+
+	color:white;
+
+}
+
+.contenedor-principal
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  left: calc(36% - 45px);
+
+
+}
+.contenedor-titulo
+{
+  margin: 0;
+  font-weight: bold;
+  padding: 50px;
+  background: rgb(210, 11, 142);
+  font-family: 'Overpass', sans-serif;
+  color: rgb(240, 240, 240);
+  font-size: 40px;
+  text-align: center;
+	border-radius: 20px 8px 20px 8px;
+
+
+}
+.contenedor-form
+{
+  padding: 50px 20px;
+	background: rgb(244, 9, 102);
+	color: rgb(252, 252, 252);
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	font-family: 'Metrophobic', sans-serif;
+  color: rgb(240, 240, 240);
+  font-size: 25px;
+
+}
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+input[type='submit']{
+	background: rgb(254, 254, 255);
+	color: rgb(1, 1, 1);
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: white 3px inset;
+	border-radius: 20px;
+	text-decoration: none;
+  box-shadow: rgb(170, 0, 242) 6px 6px 8px;
+
+}
+.logo-left
+{
+  float:left;
+  padding: 20px 0px 0px 20px;
+  width: 155px;
+  height: 120px;
+}
+.logo-right
+{
+  float:right;
+  padding: 20px 0px 0px 20px;
+  width: 120px;
+  height: 120px;
+}
+a{
+	font-family: 'Metrophobic', sans-serif;
+	color: rgb(240, 240, 240);
+  font-size: 12px;
+}
